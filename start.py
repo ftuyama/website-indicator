@@ -56,7 +56,7 @@ class Indicator():
                 self.indicator.set_icon(currpath + "/icons/on.ico")
             else:
                 self.indicator.set_icon(currpath + "/icons/off.ico")
-            time.sleep(1)
+            time.sleep(10)
 
     def check_qb(self):
         try:
